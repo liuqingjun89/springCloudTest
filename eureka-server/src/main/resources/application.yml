@@ -1,0 +1,14 @@
+security:
+  basic:
+    enabled: true
+  user:
+    name: liuqingjun
+    password: 890302
+server:
+  port: 8661
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false 
+    service-url:
+       defaultZone: http://liuqingjun:890302@localhost:8761/eureka
